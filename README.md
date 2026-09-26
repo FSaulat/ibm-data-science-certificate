@@ -7,7 +7,7 @@ Coursework and projects completed as part of the IBM Data Science Professional C
 ## Progress
 
 - [x] Course 1: What is Data Science?
-- [ ] Course 2: Tools for Data Science
+- [x] Course 2: Tools for Data Science
 - [ ] Course 3: Data Science Methodology
 - [ ] Course 4: Python for Data Science, AI & Development
 - [ ] Course 5: Python Project for Data Science
