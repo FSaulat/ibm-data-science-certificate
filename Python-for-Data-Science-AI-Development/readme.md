@@ -19,3 +19,11 @@ This folder contains my Jupyter Notebooks for the IBM Python for Data Science, A
 * PY0101EN-4-3-LoadData.ipynb
 * PY0101EN-5-1-Numpy1D.ipynb
 * PY0101EN-5-2-Numpy2D.ipynb
+* labs_module 1_Web Scraping_Web-Scraping
+* Pandas_Practice.ipynb
+* practice_project.ipynb
+* PY0101EN-4-3-LoadData.ipynb
+* PY0101EN-5 1_Intro_API.ipynb
+* PY0101EN-5 2_API_2 v2.ipynb
+* PY0101EN-5 4_WorkingWithDifferent.ipynb
+* PY0101EN-5.3_Requests_HTTP.ipynb
