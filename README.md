@@ -11,7 +11,7 @@ Coursework and projects completed as part of the IBM Data Science Professional C
 - [X] Course 3: Data Science Methodology
 - [X] Course 4: Python for Data Science, AI & Development
 - [X] Course 5: Python Project for Data Science
-- [ ] Course 6: Databases and SQL for Data Science with Python
+- [X] Course 6: Databases and SQL for Data Science with Python
 - [ ] Course 7: Data Analysis with Python
 - [ ] Course 8: Data Visualization with Python
 - [ ] Course 9: Machine Learning with Python
