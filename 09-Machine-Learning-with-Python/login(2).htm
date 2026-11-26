@@ -1,0 +1,172 @@
+
+<!DOCTYPE HTML>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Skills Network Labs</title>
+    <meta http-equiv="X-UA-Compatible" content="chrome=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+      <link rel="stylesheet"
+            href="/hub/static/css/style.min.css?v=1169d53348a10b2020fa67f02516a65c955f1483603703fdb5d65653c099dc66f2a52246ae0856c6f1ebcc5e1c5f527a3fa9210d12e6d8ec77e0e095d9b2c734"
+            type="text/css" />
+    
+    
+      <link rel="icon" href="/hub/static/favicon.ico?v=fde5757cd3892b979919d3b1faa88a410f28829feb5ba22b6cf069f2c6c98675fceef90f932e49b510e74d65c681d5846b943e7f7cc1b41867422f0481085c1f" type="image/x-icon">
+    
+    
+      <script src="/hub/static/components/bootstrap/dist/js/bootstrap.bundle.min.js?v=1ef3a326b7703690db9062481b664da83955a8ca3beea6ece0c7b871a8741e80eb7e1adb03ef12065667d4aaef010c3b7082cb3c526f770220a61cd098c9be3f"
+              type="text/javascript"
+              charset="utf-8"></script>
+      <script src="/hub/static/components/requirejs/require.js?v=1ff44af658602d913b22fca97c78f98945f47e76dacf9800f32f35350f05e9acda6dc710b8501579076f3980de02f02c97f5994ce1a9864c21865a42262d79ec"
+              type="text/javascript"
+              charset="utf-8"></script>
+      <script src="/hub/static/components/jquery/dist/jquery.min.js?v=bf6089ed4698cb8270a8b0c8ad9508ff886a7a842278e98064d5c1790ca3a36d5d69d9f047ef196882554fc104da2c88eb5395f1ee8cf0f3f6ff8869408350fe"
+              type="text/javascript"
+              charset="utf-8"></script>
+      <script src="/hub/static/js/darkmode.js?v=2fd9a7d11ad78df9351fed40ab35eab52e1e6a3d516f188b652120e6faf57b8e387a30aae8f52a6fb51563d06d04545c7005da0b77a98c21b0bd28f6d1cdfa11"
+              type="text/javascript"
+              charset="utf-8"></script>
+    
+    
+    
+    <script type="text/javascript">
+      require.config({
+        
+        urlArgs: "v=20261107000521",
+        
+        baseUrl: '/hub/static/js',
+        paths: {
+          components: '../components',
+          jquery: '../components/jquery/dist/jquery.min',
+          moment: "../components/moment/moment",
+        },
+      });
+
+      window.jhdata = {
+        base_url: "/hub/",
+        prefix: "/",
+        
+        
+        admin_access: false,
+        
+        
+        options_form: false,
+        
+        xsrf_token: "MnwxOjB8MTA6MTc5NTEwOTUwNXw1Ol94c3JmfDEwNDpOelJpTUdZMFlXRTFPVE5oTkdJM1pXRmtObUptTWpJeU16UXdZMlkwTVRZNmFUUmhiVVF0YTJKWlJYUkZZVTgwVFZsTVdWRnBUR3hGWVdRNVlWQkhVbDg0V2t4SVJWRjBZemw2UlQwPXxhM2U0NjIwYzhhNmJmNGFmNzJjNGY5NmE1NjY4OTEzZWRhZDM1ZDVhN2ZmNDAyMTExMTc4NWRjMDQwNzM5NDk1",
+      };
+
+</script>
+    
+    
+      <meta name="description" content="JupyterHub">
+      <meta name="keywords" content="Jupyter, JupyterHub">
+    
+  </head>
+  <body>
+    <noscript>
+      <div id='noscript'>
+        JupyterHub requires JavaScript.
+        <br>
+        Please enable it to proceed.
+      </div>
+    </noscript>
+    
+
+    
+      
+    
+    
+  
+    <div id="login-main" class="container">
+      
+        
+          <div class="service-login">
+            <p id='insecure-login-warning' class='hidden alert alert-warning'>
+              Warning: JupyterHub seems to be served over an unsecured HTTP connection.
+              We strongly recommend enabling HTTPS for JupyterHub.
+            </p>
+            <a role="button"
+               class='btn btn-jupyter btn-lg'
+               href='/hub/oauth_login?next=%2Fhub%2Fuser%2Ffaiyhaasaula%2Ffiles%2FML0110EN%2Flabs%2Fv4%2FRegression_Trees_Taxi_Tip.ipynb%3F_xsrf%3DMnwxOjB8MTA6MTc5NTEwNjE2N3w1Ol94c3JmfDEzMjpOelJpTUdZMFlXRTFPVE5oTkdJM1pXRmtObUptTWpJeU16UXdZMlkwTVRZNk1EbG1aakZoWW1JNFlXVTJZekl6TmpNNE5EZ3paakl4T0RRNU0yVm1PV0ZsTWpVek5HUXpNVGMwWVRreFpqZGtPV1EzWmpJME16UmtaVEJoT1RVeE1BPT18NGMxMTQyNmM3MzVhM2EzM2M0NTYyNWY3YzIzNzI1ZDdhNmQ2YzhlY2U2YjZiYjNjMmM5NjRhOGRmYjE3ZGZiNQ'>Sign in with Skills Network Labs</a>
+          </div>
+        
+      
+    </div>
+  
+
+    
+    
+    
+  
+  
+  <div class="modal fade"
+       id="error-dialog"
+       tabindex="-1"
+       role="dialog"
+       aria-labelledby="error-label"
+       aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h2 class="modal-title" id="error-label">Error</h2>
+          <button type="button"
+                  class="btn-close"
+                  data-bs-dismiss="modal"
+                  aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+      <div class="ajax-error alert-danger">The error</div>
+    </div>
+        <div class="modal-footer">
+          <button type="button"
+                  class="btn btn-primary"
+                  data-bs-dismiss="modal"
+                  data-dismiss="modal">OK</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+    
+  
+<script src="https://browser.sentry-cdn.com/5.7.1/bundle.min.js" integrity="sha384-KMv6bBTABABhv0NI+rVWly6PIRvdippFEgjpKyxUcpEmDWZTkDOiueL5xW+cztZZ" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/event-source-polyfill/0.0.9/eventsource.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/require.js/2.3.6/require.min.js"></script>
+<script>
+  Sentry.init({ dsn: 'https://b62337c247e041c68a1f0025cfecc2d1@sentry.skills.network/18' });
+</script>
+<script>
+  function sendLog(username, errorData) {
+    var request = new XMLHttpRequest();
+    request.open("POST", "https://messaging.skills.network/user/" + username + "/error", true);
+    request.setRequestHeader("Authorization", "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJvcmdhbml6YXRpb24iOiJzbiIsInByb2dyYW0iOiJsYWJzIiwicHJvamVjdCI6InRvb2wiLCJvcHRpb25zIjp7InBlcm1pdHRlZFR5cGUiOiJ1c2VyIiwicGVybWl0dGVkQWN0aW9ucyI6WyJlcnJvciJdfSwiaWF0IjoxNTk2MDMzODEwfQ.fqjCDCR8FJHDPIyqa6Qn5VhCdhx8safH0VGAbBLioJk");
+    request.setRequestHeader('Content-Type', 'application/json');
+    request.send(JSON.stringify({ data: errorData}));
+    request.onreadystatechange = function () {
+      if (request.readyState == 4 && request.status == 201) {
+          console.log('Reported that tool failed to start');
+      }
+    }
+  }
+</script>
+
+    
+
+  <script>
+    if (!window.isSecureContext) {
+      // unhide http warning
+      var warning = document.getElementById('insecure-login-warning');
+      warning.className = warning.className.replace(/\bhidden\b/, '');
+    }
+    // setup onSubmit feedback
+    $('form').submit((e) => {
+      var form = $(e.target);
+      form.find('.feedback-container>input').attr('disabled', true);
+      form.find('.feedback-container>*').toggleClass('hidden');
+      form.find('.feedback-widget>*').toggleClass('fa-pulse');
+    });
+  </script>
+
+  </body>
+</html>
